@@ -40,3 +40,14 @@ a {
     display: flex;
     align-self: center;
 }
+
+.content {
+    display: flex;
+    flex-direction: column;
+}
+
+.section-1 {
+    display: flex;
+    background-color: #1f2937;
+    color: #f9faf8;
+}
