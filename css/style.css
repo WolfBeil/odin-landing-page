@@ -3,9 +3,40 @@
 
 body {
     font-family: 'Roboto', Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+a:hover {
+    color: #3882f6;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    gap: 15px;
+}
+
+a {
+    text-decoration: none;
+    color: #f9faf8;
+    padding: 10px;
 }
 
 .header {
     display: flex;
     justify-content: space-around;
+    color: #f9faf8;
+    background-color: #1f2937;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    font-size: 24px;
+}
+
+.header-links {
+    display: flex;
+    align-self: center;
 }
