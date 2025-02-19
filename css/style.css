@@ -157,3 +157,41 @@ button:hover {
     font-weight: 400;
     font-size: 24px;
 }
+
+.section-4 {
+    display: flex;
+    background-color: #f9faf8;
+    color: #f9faf8;
+    justify-content: center;
+    align-items: center;
+    padding: 80px;
+}
+
+.section-4-card {
+    display: flex;
+    padding: 50px;
+    background-color: #3882f6;
+    font-size: 24px;
+    font-weight: bold;
+    border-radius: 15px;
+    justify-content: space-around;
+    align-items: center;
+    width: 800px;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.s4-card-subtext {
+    font-weight: lighter;
+    font-size: 20px;
+}
+
+.s4-button {
+    background-color: #3882f6;
+    color: #f9faf8;
+    padding: 10px 20px; 
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    border-color: #f9faf8;
+}
