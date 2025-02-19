@@ -5,6 +5,7 @@ body {
     font-family: 'Roboto', Helvetica, sans-serif;
     margin: 0;
     padding: 0;
+    height: 100vh;
 }
 
 a:hover {
@@ -102,11 +103,11 @@ button:hover {
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-    padding-bottom: 30px;
+    padding-bottom: 40px;
 }
 
 .section-2-text {
-    padding: 30px;
+    padding: 40px;
     font-size: 36px;
     font-weight: 900;
     color: #1f2937;
@@ -120,6 +121,7 @@ button:hover {
     justify-content: space-evenly;
     text-align: center;
     font-size: 16px;
+    font-weight: 350;
 }
 
 .photo-div {
@@ -136,3 +138,22 @@ button:hover {
     border-radius: 10px;
 }
 
+.section-3 {
+    display: flex;
+    flex-direction: column;
+    background-color: #e5e7eb;
+    justify-content: center;
+    align-items: center;
+    color: #1f2937;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+    padding: 30px;
+}
+
+.quote-name {
+    display: flex;
+    justify-content: flex-end;
+    font-weight: 400;
+    font-size: 24px;
+}
